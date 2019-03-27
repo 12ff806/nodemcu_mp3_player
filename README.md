@@ -56,5 +56,6 @@ NodeMCU 制作的 mp3 播放器
 ## 参考
 
 [电路一参考(少了共地线)](https://stonez56.blogspot.com/2015/03/arduino-dfplayer-mini-mp3-module.html)
+
 [电路二参考](http://markus-wobisch.blogspot.com/2016/09/arduino-sounds-dfplayer.html)
 
