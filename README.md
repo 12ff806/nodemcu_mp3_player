@@ -7,13 +7,32 @@ NodeMCU 制作的 mp3 播放器
 
 ### 硬件清单
 
+电路图一硬件清单如下:
+
+* NodeMCU (ESP8266)
+* 5V usb 供电电源 (给 NodeMCU 供电)
+* DFPlayer Mini 模块
+* 1.5v 5号电池 x 3 (给 DFPlayer Mini 供电)
+* SD card
+* Amplifier PAM8403
+* 扬声器 x 2
+
+
+电路图二硬件清单如下:
+
 * NodeMCU (ESP8266)
 * DFPlayer Mini 模块
-* 5V usb 供电电源 (给 NodeMCU 供电)
+* 1.5v 5号电池 x 6 (9v 给所有模块供电)
 * SD card
-* 扬声器 x 2
 * Amplifier PAM8403
-* 1.5v 5号电池 x 3 (给 DFPlayer Mini 供电)
+* 扬声器 x 2
+* 7805 稳压器 (输出5v)
+* 二极管1N4001 x 1
+* 470uF电容 x 1
+* 220uF电容 x 1
+* 100uF电容 x 1
+* 0.1uF电容 x 1
+
 
 ### 电路图一
 
@@ -35,6 +54,10 @@ NodeMCU 制作的 mp3 播放器
 
 ![](/docs/circuit_map_2_with_amplifier.png)
 
+实物接线图如下
+
+![](/docs/circuit_map_2_with_amplifier.jpeg)
+
 
 ### mp3文件命名
 
@@ -46,11 +69,11 @@ NodeMCU 制作的 mp3 播放器
 ## XY-V17B 模块 (噪音太大 已放弃)
 
 * NodeMCU (ESP8266)
-* XY-V17B 模块
 * 5V usb 供电电源 (给 NodeMCU 供电)
+* XY-V17B 模块
 * SD card
-* 扬声器 x 2
 * Amplifier PAM8403
+* 扬声器 x 2
 
 
 ## 参考
